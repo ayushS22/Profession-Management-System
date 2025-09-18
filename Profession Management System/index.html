@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>New Employees</h2>
+
+  <div class="form-container">
+    <div class="input-group">
+      <label for="nameInput">Enter Name</label>
+      <input type="text" id="nameInput" placeholder="Enter Name" />
+    </div>
+
+    <div class="input-group">
+      <label for="professionInput">Enter Profession</label>
+      <input type="text" id="professionInput" placeholder="Enter Profession" />
+    </div>
+
+    <div class="input-group">
+      <label for="ageInput">Enter Age</label>
+      <input type="number" id="ageInput" placeholder="Enter Age" />
+    </div>
+    
+
+   
+  </div>
+  <br>
+   <button class="add-btn" id="addUserBtn">Add User</button>
+
+  <p id="message" class="message"></p>
+
+  <h3>Added Employees (<span id="employeeCount">0</span>)</h3>
+
+  <div class="employee-list" id="employeeList">
+    <p class="no-employees" id="noEmployeesMsg">No employees added yet.</p>
+  </div>
+  <script src="script.js"></script>
+    
+</body>
+</html>
